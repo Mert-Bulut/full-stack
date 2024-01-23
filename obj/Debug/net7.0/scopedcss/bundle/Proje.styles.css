@@ -1,0 +1,239 @@
+/* _content/Proje/Views/Haber/SamsungS24.cshtml.rz.scp.css */
+table[b-m4rayqax4y], th[b-m4rayqax4y], td[b-m4rayqax4y] {
+  border:1px solid black;
+}
+/* _content/Proje/Views/Home/Index.cshtml.rz.scp.css */
+.carousel-caption[b-k16cuutibg] {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption[b-k16cuutibg] {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.news-card[b-k16cuutibg] {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.news-card img[b-k16cuutibg] {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    flex: 0 0 20%;
+    margin-right: 20px;
+}
+
+.news-card .col-md-12[b-k16cuutibg] {
+    flex: 1;
+    min-width: 0;
+}
+
+.news-card h4[b-k16cuutibg], .news-card p[b-k16cuutibg] {
+    word-wrap: break-word;
+}
+
+/* _content/Proje/Views/Iletisim/Index.cshtml.rz.scp.css */
+h1[b-pc8poevvlo], h2[b-pc8poevvlo], h3[b-pc8poevvlo], h4[b-pc8poevvlo], h5[b-pc8poevvlo], h6[b-pc8poevvlo], p[b-pc8poevvlo], ul[b-pc8poevvlo], li[b-pc8poevvlo] {
+	margin: 0;
+	padding: 0;
+}
+
+.contact-container[b-pc8poevvlo] {
+	background-image: url('/Img/İletişim/İletişim.JPG');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+.contact-center form label[b-pc8poevvlo] {
+	font-weight: bold  !important; 
+	color: #333;
+	background: rgba(255, 255, 255, 0.8); 
+	padding: 0.5em 1em;
+	margin-bottom: 0.5em; 
+}
+
+section[b-pc8poevvlo] {
+	display: flex;
+	justify-content: center; 
+	margin: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+}
+
+
+.btn[b-pc8poevvlo] {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007BFF;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 0.25rem;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover[b-pc8poevvlo] {
+	background-color: #0056b3;
+}
+button[type="submit"][b-pc8poevvlo] {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 30px; 
+	border-radius: 4px; 
+}
+
+.contact-left[b-pc8poevvlo], .contact-center[b-pc8poevvlo], .contact-right[b-pc8poevvlo] {
+	padding: 20px; 
+}
+
+
+.form-group[b-pc8poevvlo] {
+	margin-bottom: 15px; 
+}
+
+.form-group input[name="name"][b-pc8poevvlo],
+.form-group input[type="text"][b-pc8poevvlo],
+.form-group input[type="email"][b-pc8poevvlo],
+.form-group textarea[b-pc8poevvlo] {
+    display: block; 
+    width: 100%; 
+    padding: 0.5em; 
+    margin-bottom: 0.5em; 
+    box-sizing: border-box;
+}
+.form-group textarea[b-pc8poevvlo] {
+	height: 150px; 
+	resize: vertical; 
+}
+.form-group input[name="name"][b-pc8poevvlo] {
+	font-size: 18px; 
+}
+
+.form-group label[b-pc8poevvlo] {
+	margin-bottom: 10px; 
+	font-weight: bold; 
+	background: rgba(255, 255, 255, 0.8); 
+	padding: 10px; 
+	border-radius: 4px;
+}
+.social-media-heading[b-pc8poevvlo] {
+	font-size: 1.2rem; 
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px; 
+	text-align: center;
+}
+
+textarea[b-pc8poevvlo] {
+	resize: vertical;
+}
+
+.social-media-icons[b-pc8poevvlo] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none; 
+}
+.social-media-icons a[b-pc8poevvlo] {
+	font-size: 2rem;
+	margin: 0 1rem; 
+	color: #007BFF;
+}
+
+.contact-right[b-pc8poevvlo] {
+	background: rgba(255, 255, 255, 0.7); 
+	padding: 10px;
+	border-radius: 4px; 
+}
+
+.social-media-icons a:hover[b-pc8poevvlo] {
+	color: #0056b3;
+}
+
+@media (max-width: 768px) {
+	.contact-container[b-pc8poevvlo] {
+		 flex-direction: column;
+	}
+
+	.contact-center[b-pc8poevvlo], .contact-right[b-pc8poevvlo] {
+		 width: 100%;
+		 margin: 0;
+		 padding: 1rem;
+	}
+
+	.social-media-icons a[b-pc8poevvlo] {
+		 font-size: 1.5rem; 
+		 margin: 0 .5rem;
+	}
+}
+/* _content/Proje/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-wzp8xvl3am] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-wzp8xvl3am] {
+  color: #0077cc;
+}
+
+.btn-primary[b-wzp8xvl3am] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-wzp8xvl3am], .nav-pills .show > .nav-link[b-wzp8xvl3am] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-wzp8xvl3am] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-wzp8xvl3am] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-wzp8xvl3am] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-wzp8xvl3am] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-wzp8xvl3am] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

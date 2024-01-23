@@ -1,0 +1,25 @@
+@model LoginViewModel
+
+<h2>Giriş Yap</h2>
+<hr>
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Email">E-posta</label>
+        <input asp-for="Email" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password">Şifre</label>
+        <input asp-for="Password" class="form-control">
+    </div>
+    <div class="form-check mb-3">
+        <label asp-for="RememberMe" class="form-check-label">Beni Hatırla</label>
+        <input asp-for="RememberMe" class="form-check-input">
+    </div>
+    <div class="mb-3">
+        <a href="/Account/ForgotPassword">Şifremi Unuttum</a>
+    </div>
+    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+    <a asp-action="Create" class="btn btn-warning">Kayıt Ol</a>
+</form>
